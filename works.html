@@ -39,6 +39,11 @@
             <li><a href="./contact.html" tkey="nav-4"></a></li>
             <li><a href="https://github.com/franci22" tkey="nav-5"></a></li>
           </ul>
+
+          <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
+            <li><a href="#" id="nav-lang-it">IT</a></li>
+            <li><a href="#" id="nav-lang-en">EN</a></li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -112,8 +117,15 @@
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
   <script src="./assets/js/lang.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
   <script>
   $(function() {
+    if (Cookies.get("lang")) {
+      var lang = Cookies.get("lang");
+    } else {
+      var lang = navigator.language.substr (0, 2);
+    }
+    apply_lang(lang);
     navActivePage();
   });
   </script>
