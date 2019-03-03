@@ -33,6 +33,8 @@
     "works-1" : "Guarda il <a href=\"https://github.com/franci22\">mio profilo GitHub</a> per vedere tutti i miei progetti!",
     "works-list-1" : "Inline Memo | @BNoteBot",
     "works-list-1-desc" : "Bot per Telegram per salvare delle note e impostare dei promemoria.",
+    "works-list-2" : "CSV2Chart",
+    "works-list-2-desc" : "CSV2Chart permette di creare grafici con i dati della <a href=\"https://eee.centrofermi.it/\" target=\"_blank\">rete dei telescopi EEE</a> a partire da file .CSV.",
     "discover" : "Scopri",
     "github-i" : "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> GitHub"
 }
