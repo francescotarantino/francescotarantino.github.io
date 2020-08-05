@@ -1,6 +1,6 @@
 {
     "home-0" : "Ciao,",
-    "home-typed-1" : "Sono Francesco",
+    "home-typed-1" : "Mi chiamo Francesco",
     "home-typed-2" : "Sono uno studente",
     "home-typed-3" : "Sviluppo Bot per Telegram",
     "nav-1" : "01 : Home",
@@ -14,12 +14,10 @@
     "title-4" : "Francesco Tarantino - Contattami",
     "about-1" : "Chi sono?",
     "about-2" : "Ciao! Sono Francesco Tarantino, frequento il Liceo Scientifico e sono appassionato di informatica e programmazione!",
-    "about-3" : "Conosco alcuni linguaggi:",
-    "about-3-1" : "PHP <i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star-half-o\" aria-hidden=\"true\"></i>",
+    "about-3" : "Conosco alcuni linguaggi, fra cui:",
+    "about-3-1" : "PHP <i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star-o\" aria-hidden=\"true\"></i>",
     "about-3-2" : "Javascript <i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star-o\" aria-hidden=\"true\"></i><i class=\"fa fa-star-o\" aria-hidden=\"true\"></i>",
-    "about-3-3" : "HTML <i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star-o\" aria-hidden=\"true\"></i><i class=\"fa fa-star-o\" aria-hidden=\"true\"></i>",
-    "about-3-4" : "Java <i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star-half-o\" aria-hidden=\"true\"></i><i class=\"fa fa-star-o\" aria-hidden=\"true\"></i><i class=\"fa fa-star-o\" aria-hidden=\"true\"></i>",
-    "about-3-5" : "C <i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star-half-o\" aria-hidden=\"true\"></i><i class=\"fa fa-star-o\" aria-hidden=\"true\"></i><i class=\"fa fa-star-o\" aria-hidden=\"true\"></i>",
+    "about-3-3" : "Dart (Flutter) <i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star\" aria-hidden=\"true\"></i><i class=\"fa fa-star-o\" aria-hidden=\"true\"></i><i class=\"fa fa-star-o\" aria-hidden=\"true\"></i>",
     "about-4" : "Cosa faccio?",
     "about-5" : "Principalmente sviluppo Bot per Telegram, ma non solo.<br />Puoi vedere i miei progetti usando il pulsante in alto!",
     "recaptcha-error" : "<i class=\"fa fa-times\" aria-hidden=\"true\"></i>Errore reCAPTCHA.",
@@ -35,6 +33,6 @@
     "works-list-1-desc" : "Bot per Telegram per salvare delle note e impostare dei promemoria.",
     "works-list-2" : "CSV2Chart",
     "works-list-2-desc" : "CSV2Chart permette di creare grafici con i dati della <a href=\"https://eee.centrofermi.it/\" target=\"_blank\">rete dei telescopi EEE</a> a partire da file .CSV.",
-    "discover" : "Scopri",
+    "open" : "Apri",
     "github-i" : "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> GitHub"
 }
