@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/francescotar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://francescotarantino.github.io
+  * I am francescotar (https://keybase.io/francescotar) on keybase.
+  * I have a public key ASDY1KWrOUYcv5bDXBqPIX8zlrc5khfrzU5SD1nLV2Li3go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d8d4a5ab39461cbf96c35c1a8f217f3396b7399217ebcd4e520f59cb5762e2de0a",
+      "host": "keybase.io",
+      "kid": "0120d8d4a5ab39461cbf96c35c1a8f217f3396b7399217ebcd4e520f59cb5762e2de0a",
+      "uid": "20319cfecec540f7001c5e56f02d6719",
+      "username": "francescotar"
+    },
+    "merkle_root": {
+      "ctime": 1596711930,
+      "hash": "d751683cbcb12a677530d07b4c2cd6132cad2402d4fe59b7b8ccf91e0370e3a231b3a52e45b0117cd4063728e2cbb0006f0da2d44df7a69f25cb70bdbc3d22d6",
+      "hash_meta": "6a28a2f7076b57bbe74c67770e7a928cf1e10b58310a09c83d40a46765629a81",
+      "seqno": 17202130
+    },
+    "service": {
+      "entropy": "FfuI1Q6GDWyqwHBFHNECR5uK",
+      "hostname": "francescotarantino.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1596711966,
+  "expire_in": 504576000,
+  "prev": "e7ce94d8cf8fa0c6d8d89c3fe95a6e59ca0b0cee6931069774a693a1cc2caf1f",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2NSlqzlGHL+Ww1wajyF/M5a3OZIX681OUg9Zy1di4t4Kp3BheWxvYWTESpcCDsQg586U2M+PoMbY2Jw/6VpuWcoLDO5pMQaXdKaTocwsrx/EINAPWR9WfzzlkRH+SL9FzsKaFTMQP33isFwRQO2iRPwoAgHCo3NpZ8RAHTC9jSBWgc8tSG1nC7xQnmKZr+b2GutLu3Aq18A/dmpQuhXlI6qX03rvdgaaVdcDeWvuOyANy2Jp7Tr9bFOPCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMfLkGQPuFx3L+VNPAQ+zcqLMrKo684gtHrGVV31odnwo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/francescotar
+
+==================================================================
