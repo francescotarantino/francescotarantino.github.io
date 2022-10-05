@@ -5,7 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ["Graphik", "sans-serif"],
+      display: ["MonumentExtended", "normal"],
+      cursive: ["Chonburi", "cursive"],
+    },
   },
   plugins: [],
 };
