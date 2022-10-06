@@ -12,7 +12,8 @@
     "@fontsource/chonburi": "^4.5.10",
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "smooth-scrollbar": "^8.8.1"
   },
   "devDependencies": {
     "@types/node": "18.8.2",
