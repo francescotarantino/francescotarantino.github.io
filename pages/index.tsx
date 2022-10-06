@@ -68,14 +68,14 @@ export default function Home() {
       <div className="z-20 fixed pointer-events-none touch-none top-0 left-0 w-full h-screen">
         <div className="relative border-[1rem] md:border-[1.5rem] border-transparent w-full h-full border-primary-200">
           <div className="w-full h-full border-2 rounded-xl border-secondary-800">
-            <div className="z-30 w-auto mx-20 fixed rounded-b-xl border-t-0 border-2 border-secondary-800 backdrop-blur-sm invisible sm:visible">
+            <div className="z-30 w-auto mx-20 fixed rounded-b-xl border-t-0 border-2 border-secondary-800 backdrop-blur-sm invisible md:visible">
               <p className="font-sans font-bold p-4 text-2xl text-secondary-800">
                 Francesco Tarantino
               </p>
             </div>
           </div>
 
-          <div className="z-30 pointer-events-auto touch-auto absolute bottom-0.5 right-0 mx-20 rounded-t-xl border-b-0 border-2 border-secondary-800 backdrop-blur-sm invisible sm:visible">
+          <div className="z-30 pointer-events-auto touch-auto absolute bottom-0.5 right-0 mx-20 rounded-t-xl border-b-0 border-2 border-secondary-800 backdrop-blur-sm invisible md:visible">
             <LinkIcons />
           </div>
         </div>
@@ -87,13 +87,13 @@ export default function Home() {
         data-scrollbar
       >
         <div className="flex sm:h-screen w-screen px-20 flex-col md:flex-row">
-          <div className="font-sans font-bold pt-8 text-2xl text-secondary-800 text-center sm:hidden">
+          <div className="font-sans font-bold pt-8 text-2xl text-secondary-800 text-center md:hidden">
             Francesco Tarantino
             <LinkIcons />
           </div>
 
           <div className="m-auto grow justify-center flex flex-col pointer-events-none text-center md:text-left">
-            <p className="font-display font-extrabold text-6xl lg:text-7xl uppercase text-secondary-800">
+            <p className="font-display font-extrabold text-4xl sm:text-6xl lg:text-7xl uppercase text-secondary-800">
               Computer engineer
             </p>
             <p className="font-display text-xl sm:text-4xl text-secondary-800/75">
