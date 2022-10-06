@@ -10,6 +10,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import Scrolldown from "../components/scrolldown";
+import { isBrowser } from "react-device-detect";
 
 const LinkIcons = () => (
   <p className="font-sans font-bold p-4 text-2xl text-secondary-800">
@@ -45,20 +46,27 @@ const LinkIcons = () => (
 
 export default function Home() {
   const scrolldown = useRef(null);
+  const content = useRef(null);
 
   useEffect(() => {
-    const scrollbar = Scrollbar.initAll({
-      damping: 0.1,
-    });
+    if (isBrowser) {
+      content.current.classList.add("h-screen");
 
-    scrollbar[0].addListener((status) => {
-      if (status.offset.y === 0) {
-        scrolldown.current.classList.remove("hidden");
-      } else {
-        scrolldown.current.classList.add("hidden");
-      }
-    });
-  });
+      const scrollbar = Scrollbar.initAll({
+        damping: 0.1,
+      });
+
+      scrollbar[0].addListener((status) => {
+        if (status.offset.y === 0) {
+          scrolldown.current.classList.remove("hidden");
+        } else {
+          scrolldown.current.classList.add("hidden");
+        }
+      });
+    } else {
+      scrolldown.current.classList.add("hidden");
+    }
+  }, [isBrowser]);
 
   return (
     <>
@@ -81,12 +89,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div
-        className="w-screen h-screen bg-primary-200"
-        style={{ height: "-webkit-fill-available" }}
-        data-scrollbar
-      >
-        <div className="flex sm:h-screen w-screen px-20 flex-col md:flex-row">
+      <div ref={content} className="w-screen bg-primary-200" data-scrollbar>
+        <div className="flex sm:h-screen w-screen px-4 sm:px-20 flex-col md:flex-row">
           <div className="font-sans font-bold pt-8 text-2xl text-secondary-800 text-center md:hidden">
             Francesco Tarantino
             <LinkIcons />
@@ -116,7 +120,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex h-screen px-20 flex-col-reverse md:flex-row">
+        <div className="flex sm:h-screen px-4 sm:px-20 flex-col-reverse md:flex-row text-center md:text-left">
           <div className="m-auto flex-1 ">
             <p className="font-display font-extrabold text-4xl sm:text-7xl uppercase text-secondary-800">
               My projects
