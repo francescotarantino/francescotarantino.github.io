@@ -45,22 +45,35 @@ export default function Home() {
 
           <div className="z-30 pointer-events-auto touch-auto absolute bottom-0.5 right-0 mx-20 rounded-t-xl border-b-0 border-2 border-secondary-800 backdrop-blur-sm">
             <p className="font-sans font-bold p-4 text-2xl text-secondary-800">
-              <a href="https://t.me/francesco_tar" target="_blank">
+              <a
+                href="https://t.me/francesco_tar"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={faTelegram} />
               </a>
               {"  "}
-              <a href="https://github.com/francescotarantino" target="_blank">
+              <a
+                href="https://github.com/francescotarantino"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
               {"  "}
               <a
                 href="https://www.linkedin.com/in/francesco-tarantino2"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
               {"  "}
-              <a href="https://twitter.com/_francescotar" target="_blank">
+              <a
+                href="https://twitter.com/_francescotar"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
             </p>
@@ -83,8 +96,13 @@ export default function Home() {
             <p className="font-sans w-full text-center text-secondary-800">
               Currently studying at
             </p>
-            <a href={"https://polimi.it"} target={"_blank"}>
-              <Image src="/img/polimi_black.svg" height={200} width={200} />
+            <a href={"https://polimi.it"} target={"_blank"} rel="noreferrer">
+              <Image
+                src="/img/polimi_black.svg"
+                height={200}
+                width={200}
+                alt={"Polimi logo"}
+              />
             </a>
           </div>
         </div>
