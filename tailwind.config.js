@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -9,6 +12,12 @@ module.exports = {
       sans: ["Graphik", "sans-serif"],
       display: ["MonumentExtended", "normal"],
       cursive: ["Chonburi", "cursive"],
+    },
+    extend: {
+      colors: {
+        primary: colors.green,
+        secondary: colors.purple,
+      },
     },
   },
   plugins: [],
