@@ -90,7 +90,7 @@ export default function Home() {
       </div>
 
       <div ref={content} className="w-screen bg-primary-200" data-scrollbar>
-        <div className="flex sm:h-screen w-screen px-4 sm:px-20 flex-col md:flex-row">
+        <div className="flex sm:min-h-screen w-screen px-4 sm:px-20 flex-col md:flex-row">
           <div className="font-sans font-bold pt-8 text-2xl text-secondary-800 text-center md:hidden">
             Francesco Tarantino
             <LinkIcons />
@@ -120,12 +120,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex sm:h-screen px-4 sm:px-20 flex-col-reverse md:flex-row text-center md:text-left">
-          <div className="m-auto flex-1 ">
+        <div className="flex sm:min-h-screen px-4 pb-4 sm:px-20 flex-col-reverse md:flex-row text-center md:text-left">
+          <div className="m-auto flex-1">
             <p className="font-display font-extrabold text-4xl sm:text-7xl uppercase text-secondary-800">
-              My projects
-            </p>
-            <p className="font-display text-xl sm:text-4xl text-secondary-800/75">
               Work in progress...
             </p>
           </div>
