@@ -89,7 +89,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div ref={content} className="w-screen bg-primary-200" data-scrollbar>
+      <div
+        ref={content}
+        className="w-screen min-h-screen bg-primary-200"
+        data-scrollbar
+      >
         <div className="flex sm:min-h-screen w-screen px-4 sm:px-20 flex-col md:flex-row">
           <div className="font-sans font-bold pt-8 text-2xl text-secondary-800 text-center md:hidden">
             Francesco Tarantino
